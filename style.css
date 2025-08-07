@@ -563,17 +563,21 @@ body {
 
 .footer-nav {
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .prev-button,
 .next-button,
 .restart-button {
-  padding: 12px 25px;
+  padding: 15px 30px;
   text-decoration: none;
   border-radius: 25px;
   font-weight: 500;
   transition: all 0.3s ease;
+  margin: 0 5px;
 }
 
 .prev-button {
@@ -692,6 +696,20 @@ body {
   .footer-content {
     flex-direction: column;
     text-align: center;
+    gap: 20px;
+  }
+  
+  .footer-nav {
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .prev-button,
+  .next-button,
+  .restart-button {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    margin: 0 2px;
   }
 
   .container {

@@ -702,12 +702,12 @@ body {
     text-align: center;
     flex-wrap: wrap;
   }
-  
+
   .footer-nav {
     gap: 15px;
     justify-content: center;
   }
-  
+
   .prev-button,
   .next-button,
   .restart-button {

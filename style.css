@@ -694,9 +694,11 @@ body {
   }
 
   .footer-content {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
   }
   
   .footer-nav {
